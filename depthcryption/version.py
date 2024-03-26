@@ -34,7 +34,7 @@ __date__: release date of this build
 """
 
 # current information
-__version__ = '0.0.1.0'
+__version__ = '0.0.1.1'
 __date__ = '2024.03'
 
 # eof

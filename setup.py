@@ -9,7 +9,7 @@ with open(pathlib.Path(os.path.dirname(__file__)).joinpath('README.md'), 'r'
 
 setup(
     name='depthcryption',
-    version='0.0.1.0',
+    version='0.0.1.1',
     include_package_data=True,
     packages=find_packages(),
     package_data={"sls": ["*.pyc"]},

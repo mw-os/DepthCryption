@@ -7,6 +7,7 @@
 
 [![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fmw-os%2FDepthCryption&label=Views&countColor=%777777a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fmw-os%2FDepthCryption)
 
+![DC_LOGO_small](https://github.com/mw-os/DepthCryption/assets/155395934/deb19578-6080-43d2-b5a2-0c8fbff23f7a)
 
 **DepthCryption** is bleeding edge encryption package that offers a novel approach to encryption that has never been seen before, offered through incredibly easy to use functions with an impressive suite of features.
 
@@ -21,20 +22,20 @@
 
 Key highlights of DepthCryption include: 
 
-- Unhackable.
-- Quantum proof.
-- Zero dependencies.
-- Offers intrinsic passkeys, making the knowledge or communication of a passwords a thing of the past.
-- With optional use of passwords or keys, there is never the possibility of a leaked password or key jeopardizing encrypted data.
-- Encrypts almost every type of object, also directly takes files and directories as encryption inputs.
-- The decryption failure feature allows users to define a probability of successful decryption, deterring would-be hackers from knowing what they are missing in hacking attempts.
-- Encrypted data can intrinsically expire at a user defined time, ensuring expired encrypted data is never recoverable.
-- Non-unique outputs ensure that crack tables / hash tables / lookup maps can never be used to crack DepthCryption outputs.
-- Works on all modern versions of pyton.
-- Works on all common operating systems.
-- Pure python, no C modules to be compiled.
-- Major points of backwards-compatibility baked in to the existing framework.
-- Encrypted data represented as common latin ascii values, ensuring maximum transportability of encrypted data.
+Unhackable.
+Quantum proof.
+Zero dependencies.
+Works on all common operating systems.
+Works on all modern versions of python.
+Encrypted data can intrinsically expire at a user defined time, ensuring expired encrypted data is never recoverable.
+Crack tables / hash tables / lookup maps (E.G. Rainbow Table) can never be used to hack data encrypted with DepthCryption, because outputs are guaranteed to be non-unique.
+Knowledge or communication of a passwords a thing of the past with optional intrinsic passkeys.
+With optional use of passwords or keys, there is never the possibility of a stolen password/key jeopardizing encrypted data.
+Encrypts every type of file, directory/folder, and almost every type of object in python.
+The optional "decryption failure probability" feature allows users to define a probability of successful decryption, deterring would-be hackers from knowing why hacking attempts are failing.
+Pure python, no C /C++/FORTRAN code to be compiled.
+Major points of backwards-compatibility baked in to the existing framework.
+Encrypted data represented as common Latin ASCII values, ensuring maximum transportability of encrypted data.
 
 
 ### *Unhackable* and *Quantum proof* are huge claims?
@@ -48,6 +49,8 @@ It is the extremely high hurdle of simultaneously cracking 3.8 Trillion sets of 
 
 - GitHub: https://github.com/mw-os/DepthCryption
 - PyPI: https://pypi.org/project/DepthCryption/
+
+![DC_LOGO_BLACK](https://github.com/mw-os/DepthCryption/assets/155395934/8bcb363a-a151-4288-b5cb-a90d0a3bac86)
 
 ## Initial setup
 
